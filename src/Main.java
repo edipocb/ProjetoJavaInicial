@@ -298,15 +298,81 @@ public class Main {
 //            System.out.println(resultado);
 //        }
 
-        //1. Contagem regressiva   Peça um número ao usuário e faça uma contagem regressiva até 0.
-
-//        System.out.println("Digite um numero inteiro");
-//        int num8 =  sc.nextInt();
-//        for (int i = num8; i == 0; i - 1) {
+//        //1. Contagem regressiva Peça um número ao usuário e faça uma contagem regressiva até 0.
 //
+//        System.out.println("Digite um numero inteiro");
+//        int num8 = sc.nextInt();
+//        for (int i = num8; i >= 0; i--) {
 //            System.out.println(i);
 //
 //        }
+
+        // Preencha o vetor de nomes e liste todos os nomes com o for
+
+//        String[] names = new String[10];
+//        names[0] = "Edipo";
+//        names[1] = "Cristiano";
+//        names[2] = "Melissa";
+//        names[3] = "Carol";
+//        names[4] = "Caroline";
+//        names[5] = "Gustavo";
+//        names[6] = "Ana";
+//        names[7] = "Mel";
+//
+//        for (int i = 0; i < names.length; i++) {
+//            System.out.println(names[i]);
+//        }
+
+
+
+//        int[] five =  new int[5];
+//        five[0] = 20;
+//        five[1] = 30;
+//        five[2] = 40;
+//        five[3] = 50;
+//        five[4] = 60;
+//
+//        for (int i = 0; i < five.length ; i++) {
+//            System.out.println(five[i]);;
+//
+//        }
+//
+//
+//
+
+
+//        System.out.println("Digite seu nome 1: ");
+//        nomes[0] = sc.nextLine();
+//        System.out.println("Digite seu nome 2: ");
+//        nomes[1] = sc.nextLine();
+//        System.out.println("Digite seu nome 3: ");
+//        nomes[2] = sc.nextLine();
+//        System.out.println("Digite seu nome 4: ");
+//        nomes[3] = sc.nextLine();
+//        System.out.println("Digite seu nome 5: ");
+//        nomes[4] = sc.nextLine();
+//        System.out.println("Digite seu nome 6: ");
+//        nomes[5] = sc.nextLine();
+//        System.out.println("Digite seu nome 7: ");
+//        nomes[6] = sc.nextLine();
+//        System.out.println("Digite seu nome 8: ");
+//        nomes[7] = sc.nextLine();
+//        System.out.println("Digite seu nome 9: ");
+//        nomes[8] = sc.nextLine();
+//        System.out.println("Digite seu nome 10: ");
+//        nomes[9] = sc.nextLine();
+
+        String[] nomes = new String[12];
+
+        for (int i = 0; i < nomes.length ; i++) {
+            System.out.println("Digite 10 itens: ");
+            nomes[i] = sc.nextLine();
+            //System.out.println("Os nomes digitados sao: " + nomes[i]);
+        }
+
+        for (int i = 0; i < nomes.length; i++) {
+            System.out.println("Os nomes digitados sao: " + nomes[i]);
+        }
 
 
     }

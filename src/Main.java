@@ -324,7 +324,6 @@ public class Main {
 //        }
 
 
-
 //        int[] five =  new int[5];
 //        five[0] = 20;
 //        five[1] = 30;
@@ -362,18 +361,28 @@ public class Main {
 //        System.out.println("Digite seu nome 10: ");
 //        nomes[9] = sc.nextLine();
 
-        String[] nomes = new String[12];
+//        String[] nomes = new String[12];
 
-        for (int i = 0; i < nomes.length ; i++) {
-            System.out.println("Digite 10 itens: ");
-            nomes[i] = sc.nextLine();
-            //System.out.println("Os nomes digitados sao: " + nomes[i]);
-        }
+//        for (int i = 0; i < nomes.length; i++) {
+//            System.out.println("Digite 10 itens: ");
+//            nomes[i] = sc.nextLine();
+//            //System.out.println("Os nomes digitados sao: " + nomes[i]);
+//        }
+//
+//        for (int i = 0; i < nomes.length; i++) {
+//            System.out.println("Os nomes digitados sao: " + nomes[i]);
+//        }
 
-        for (int i = 0; i < nomes.length; i++) {
-            System.out.println("Os nomes digitados sao: " + nomes[i]);
-        }
-
+        // 3. Soma dos elementos do vetor
+//        int[] posicoes = new int[4];
+//        int soma = 0;
+//
+//        for (int i = 0; i < posicoes.length; i++) {
+//            System.out.println("Digite um numero: ");
+//            posicoes[i] = sc.nextInt();
+//            soma += posicoes[i];
+//        }
+//        System.out.println(soma) ;
 
     }
 }

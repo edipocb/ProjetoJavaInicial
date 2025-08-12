@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class main {
 
     // 1. Exibir uma mensagem de boas-vindas
     public static void mostrarMensagem() {
@@ -21,20 +21,23 @@ public class Main {
 
     }
     //4. Verificar se um número é par
-//    public static int ehPar( int num4){
-//        int parImpar = num4 % 10;
-//        return parImpar;
-//    }
+    public static boolean ehPar(int num4){
+        return num4 % 2 == 0;
+    }
 
     public static void main(String[] args) {
-    mostrarMensagem();
-    mostrarDobro(15);
+        mostrarMensagem();
+        mostrarDobro(15);
 
-//    int dividir = dividir(20,2);
-//        System.out.println(dividir);
-
-
+        int dividir = dividir(20,2);
+        System.out.println(dividir);
 
 
+        int valor = 8;
+        if(ehPar(valor)) {
+            System.out.println(valor + " É par ");
+        } else {
+            System.out.println(valor + " É impar ");
+        }
     }
 }

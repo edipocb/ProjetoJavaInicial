@@ -321,19 +321,17 @@ public class Main {
 //            System.out.println("Os nomes digitados foram: " + nomes[i]);
 //        }
 
-        String[] notas = new String[10];
+        int[] notas = new int[3];
 
 
-
-
-
-        System.out.println("Digite seu nome 1: ");
-        notas[0] = sc.nextLine();
-        System.out.println("Digite seu nome 2: ");
-        notas[1] = sc.nextLine();
-        System.out.println("Digite seu nome 3: ");
-        notas[2] = sc.nextLine();
-
+//        System.out.println("Digite sua nota 1: ");
+//        notas[0] = sc.nextInt();
+//        System.out.println("Digite sua nota 2: ");
+//        notas[1] = sc.nextInt();
+//        System.out.println("Digite sua nota 3: ");
+//        notas[2] = sc.nextInt();
+//
+//        System.out.println("As notas digitas foram: " + notas[0] + "," + notas[1] + "," + notas[2]);
 
  }
 }
